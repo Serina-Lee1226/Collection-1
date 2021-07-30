@@ -5,10 +5,168 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Collection-1</title>
-  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <h1>Collection-1</h1>
-  <h2>Collection-1</h2>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <div class="hamburger">
+          <span></span>
+        </div>
+      </label>
+      <a href="" class="nav-brand">
+        <img src="https://www.cwlearning.com.tw/_nuxt/img/logo.619a415.jpg" alt="">
+      </a>
+      <ul class="nav-left">
+        <li class="nav-item">
+          線上課程
+          <span class="nav-arrow">V</span>
+          <div class="nav-arrow-card">
+            <ul class="nav-arrow-item">
+              <li class="nav-item">
+                <a href="" class="nav-link">所有課程</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">管理/領導</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">創業/開店</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">數位/行銷</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">職場/心靈</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">溝通/表達</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">身心/健康</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">親職/教育</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">套裝優惠</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">實體課程</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">空中講堂</a>
+        </li>
+      </ul>
+      <div class="nav-right">
+        <a href="" class="experience">免費體驗</a>
+        <a href="" class="login">登入</a>
+      </div>
+      <input type="checkbox" class="nav-toggle" id="nav-toggle">
+      <div class="nav-group">
+        <!--   下面label的for同樣綁定相同的nav-toggle! -->
+        <label for="nav-toggle" class="close">X</label>
+        <div class="nav-group-wrap">
+          <ul class="nav-group-item">
+            <li class="nav-item">
+              <a href="" class="nav-link">線上課程</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">實體課程</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">套裝優惠</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">空中講堂</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">MasterCheers x MCA</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">大師文選</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">使用兌換碼</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">關於天下學習</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">企業方案</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Section: image-slider -->
+  <section>
+    <div class="slider-full">
+      <div class="slider">
+        <button class="prevBtn">Prev</button>
+        <div class="slider-list">
+          <picture id="lastClone">
+            <source
+              srcset="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60efee1c973fd.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60efee1f88265.png"
+              alt="" />
+          </picture>
+          <picture>
+            <source
+              srcset="https://storage.googleapis.com/master-cheers-prod/course-set/202106/course-set-60c42497230ba.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/course-set/202106/course-set-60c4249c6adb5.jpg"
+              alt="" />
+          </picture>
+          <picture>
+            <source
+              srcset="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60f016e1a9d3e.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60f016e75441e.jpg"
+              alt="" />
+          </picture>
+          <picture>
+            <source srcset="https://cdn.cheers.com.tw/article/202107/article-60ebe5e800560.jpg"
+              media="(min-width: 768px)">
+            <img src="https://cdn.cheers.com.tw/article/202107/article-60ebe5fbaee00.jpg" alt="" />
+          </picture>
+          <picture>
+            <source srcset="https://storage.googleapis.com/master-cheers-prod/article/202107/article-60f7d6fa9b680.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/article/202107/article-60f7d7096229b.jpg"
+              alt="" />
+          </picture>
+          <picture>
+            <source
+              srcset="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60efee1c973fd.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/course-set/202107/course-set-60efee1f88265.png"
+              alt="" />
+          </picture>
+          <picture id="firstClone">
+            <source
+              srcset="https://storage.googleapis.com/master-cheers-prod/course-set/202106/course-set-60c42497230ba.jpg"
+              media="(min-width: 768px)">
+            <img src="https://storage.googleapis.com/master-cheers-prod/course-set/202106/course-set-60c4249c6adb5.jpg"
+              alt="" />
+          </picture>
+        </div>
+        <button class="nextBtn">Next</button>
+      </div>
+      <ul class="slick-dots">
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+      </ul>
+    </div>
+  </section>
 </body>
 </html>
